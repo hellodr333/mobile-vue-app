@@ -7,9 +7,13 @@ vue + eventbus 组件之间通信 + i18n  + history模式路由
 
 技术栈
 vue-cli 3
+
 eventbus 实现组件之间的通信
+
 history模式的路由 
+
 i18n 插件实现 语言的切换
+
 
 ## 移动端与 pc 端后台架构的特点比较
 1.路由模式的选择： history  与 hash 的比较
