@@ -2,9 +2,9 @@
 vue + eventbus （组件之间通信） + i18n  + history（模式路由）
 
 
-### yarn  install 安装依赖
+### 1.yarn  install 安装依赖
           
-### yarn  serve  启动项目
+### 2.yarn  serve  启动项目
 
 ### 技术栈
 vue-cli 3
