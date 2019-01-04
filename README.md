@@ -1,11 +1,12 @@
 # mobile-vue-app
-vue + eventbus 组件之间通信 + i18n  + history模式路由
+vue + eventbus （组件之间通信） + i18n  + history（模式路由）
 
 
-### yarn  install
-### yarn  serve
+### yarn  install 安装依赖
+          
+### yarn  serve  启动项目
 
-技术栈
+### 技术栈
 vue-cli 3
 
 eventbus 实现组件之间的通信
@@ -16,6 +17,7 @@ i18n 插件实现 语言的切换
 
 
 ## 移动端与 pc 端后台架构的特点比较
+
 1.路由模式的选择： history  与 hash 的比较
   不同于 pc 端，移动端使用 history 模式的路由兼容性更好，移动端可以根据页面来划分模块，但是 pc 端倾向于不同的模块来划分组件，同样也是影响到项目的目录结构，文件位置的摆放
   
