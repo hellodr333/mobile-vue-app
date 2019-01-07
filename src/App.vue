@@ -1,7 +1,5 @@
 <template>
   <div id="app">
-    <!-- <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld :msg="$t('msg')"/> -->
     <div class="nav">
       <router-link to="/">HOME</router-link>
       <router-link to="/ours">OURS</router-link>

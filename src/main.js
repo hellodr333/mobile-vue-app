@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import './plugins/axios'
 import App from './App.vue'
 import i18n from './locales/index.js'
 import router from './routes/index.js'
