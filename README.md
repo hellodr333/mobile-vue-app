@@ -11,11 +11,11 @@ vue-cli 3
 
 eventbus 实现组件之间的通信
 
-history模式的路由 
+history 路由模式
 
-i18n 插件实现 语言的切换
+i18n 插件实现多语言
 
-stylus 样式预处理框
+stylus 样式预处理框架
 
 pug html模板引擎
 
