@@ -15,7 +15,9 @@ history模式的路由
 
 i18n 插件实现 语言的切换
 
-stylus 样式预处理框架
+stylus 样式预处理框
+
+pug html模板引擎
 
 ## 移动端与 pc 端后台架构的特点比较
 
