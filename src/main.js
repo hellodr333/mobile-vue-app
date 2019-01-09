@@ -3,6 +3,8 @@ import './plugins/axios'
 import App from './App.vue'
 import i18n from './locales/index.js'
 import router from './routes/index.js'
+// 基础 css
+import './styles/common.styl' 
 Vue.config.productionTip = false
 // 状态 数据比较少的时候用 bus ，数据复杂的时候用 vuex
 // Vue.prototype.$bus = new Vue()
