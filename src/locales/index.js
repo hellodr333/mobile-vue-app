@@ -34,7 +34,7 @@ export const setLanguage = lang => {
 	} else {
 		window.localStorage.setItem(LOCALE_KEY, lang)
 	}
-	// 清楚 body 不同类型语言对应的class以及属性
+	// 清除 body 不同类型语言对应的class以及属性
 	// Object.keys(locales).forEach(lang => {
 	// 	document.body.classList.remove(`lang-${lang}`)
 	// })
