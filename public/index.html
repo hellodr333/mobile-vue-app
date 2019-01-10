@@ -3,7 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- 禁止 ios mobile call -->
+    <meta content="telephone=no" name="format-detection" />
     <!-- 因为 index 文件被用作模板，所以你可以使用 lodash template 语法插入内容 -->
     <!-- BASE_URL  默认值 '/' -->
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
