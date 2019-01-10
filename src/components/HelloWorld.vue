@@ -1,9 +1,8 @@
-<template>
-  <div class="hello">
-    <h1>{{ msg }}&nbsp;&nbsp;{{$t('guide')}}</h1>
-    <button @click="toggleLanguage({language: 'cn'})">中文</button>&nbsp;&nbsp;
-    <button @click="toggleLanguage({language: 'en'})">英文</button>
-  </div>
+<template lang="pug">
+  div.hello
+    h1 {{ msg }}&nbsp;&nbsp;{{$t('guide')}}
+    button(@click="toggleLanguage({language: 'cn'})") 中文 &nbsp;&nbsp;
+    button(@click="toggleLanguage({language: 'en'})") 英文
 </template>
 
 <script>

@@ -1,8 +1,7 @@
-<template>
-  <div class="ours">
-      <You></You>
-      <Me></Me>
-  </div>
+<template lang="pug">
+  div.ours
+    You
+    Me
 </template>
 
 <script>

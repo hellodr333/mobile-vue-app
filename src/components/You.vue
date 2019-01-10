@@ -1,8 +1,7 @@
-<template>
-  <div class="you">
-    <div>you</div>
-    <h3>{{inputMsg}}</h3>
-  </div>
+<template lang="pug">
+  div.you
+    div you
+    h3 {{inputMsg}}
 </template>
 
 <script>

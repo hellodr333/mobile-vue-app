@@ -1,10 +1,7 @@
-<template>
-  <div class="me">
-    <div>me</div>
-    <div>
-      <input type="text" name="" v-model="message" @input="sendMsg">
-    </div>
-  </div>
+<template lang="pug">
+  div.me
+    div
+      input(type="text" name="" v-model="message" @input="sendMsg")
 </template>
 
 <script>

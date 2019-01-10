@@ -1,9 +1,7 @@
-<template>
-  <div>
-    <img alt="Vue logo" src="@/assets/logo.png">
-    <HelloWorld :msg="$t('msg')"/>
-    <!-- <Me></Me> -->
-  </div>
+<template lang="pug">
+  div
+    img(alt="Vue logo" src="@/assets/logo.png")
+    HelloWorld(sg="$t('msg')")
 </template>
 
 <script>
