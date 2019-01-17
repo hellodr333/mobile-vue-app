@@ -14,8 +14,6 @@ export default {
       type: String
     }
   },
-  mounted() {
-  },
   methods: {
     toggleLanguage (obj) {
       if (obj.language === 'cn') {
